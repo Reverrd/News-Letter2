@@ -137,10 +137,17 @@ input[type="email"]{
     .signUp-container{
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 100%;
+        max-width: 100vh;
         height: 1300vh;
-        padding: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
 
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p, li{
+        font-size: 1rem;
     }
 
 }
