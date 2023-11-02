@@ -131,14 +131,16 @@ input[type="email"]{
 }
 #error-message{
     color: #ff0000;
+    font-weight: bold;
 }
 @media screen and (max-width:768px) {
     .signUp-container{
         display: grid;
         grid-template-columns: 1fr;
-
         max-width: 100%;
         height: 1300vh;
+        padding: 50px;
+
     }
 
 }
